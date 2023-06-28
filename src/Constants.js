@@ -46,7 +46,7 @@ export const PROJECTS = [
   },
   {
     image: project6,
-    name: "project6",
+    name: "Creative Password",
     technologyUsed: "ReactJs, Typescript, Redux",
     description: "If you ever feel stuck at creating password, this app will help you get one strong password based on high-security criteria. ",
     url: "https://hokin2023.github.io/home-work-3/",
