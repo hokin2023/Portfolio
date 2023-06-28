@@ -10,7 +10,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { MdDeveloperMode } from "react-icons/md";
+// import { MdDeveloperMode } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+         Kin Ho
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

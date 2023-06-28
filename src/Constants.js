@@ -1,42 +1,42 @@
 import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
+import project3 from "./Assets/Projects/mvc-tech-blog.png";
 import DROPSHIP from "./Assets/Projects/dropship.jpg";
 import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
 import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
 import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
+import project1 from "./Assets/Projects/project1.png";
 import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import project2 from "./Assets/Projects/project2.png";
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "Micorsoft Azure Cosmos DB",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    url: "https://cosmos.azure.com/",
+    image: project1,
+    name: "Pear Music",
+    technologyUsed: "Javascript, HTML, CSS, APIs",
+    description: "With Pear Music, users can search for top hits based on genres. It provides the best quality musics to users, and they can also add it to playlist and listen later.",
+    url: "https://vlad1slav86.github.io/Pear-Music/",
   },
   {
-    image: TRAVELWELL,
-    name: "travlwell.com",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    url: "https://travlwell.com/",
+    image: project2,
+    name: "Eat to Live",
+    technologyUsed: "Javascript, NodeJs, ExpressJs, MVC, GoogleAPIs",
+    description: "Inspired by Yelp, Eat to Live allow users to look for the best nearby restaurants. It also allows users to create an account, review, and interact with other users.",
+    url: "https://eattolive-ed92f3891fdb.herokuapp.com/",
   },
   {
-    image: COAST,
-    name: "Coast",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-    url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+    image: project3,
+    name: "MVC Tech Blog",
+    technologyUsed: "NodeJs, Javascript, Handlebars, ExpressJs, Insomnia",
+    description: "A Blog that allows users to post contents and interact with different users. It was created to let people speak their thoughts and increase interactivity",
+    url: "https://mvc-tech-blog.herokuapp.com/",
   },
   {
     image: AUTOMATION,
-    name: "3automation.com (RPA)",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
-    url: "https://www.3automation.com/",
+    name: "Employee Tracker",
+    technologyUsed: "NodeJs and Mysql",
+    description: "An app that allow users to manage employees through company's database.",
+    url: "https://github.com/hokin2023/12th-Cinnamoroll",
   },
   {
     image: GUAMEDIA,
@@ -76,22 +76,24 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = [
-  { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
+
+ 
   { name: "JavaScript", initialRating: 4 },
-  { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
-  { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
+  { name: "ReactJs", initialRating: 3 },
+  { name: "MongoDB", initialRating: 4 },
+  { name: "Front-end", initialRating: 4 },
+  { name: "Back-end", initialRating: 5 },
+  { name: "Nodejs", initialRating: 4 },
+  { name: "Expressjs", initialRating: 4 },
   { name: "Html", initialRating: 4 },
   { name: "CSS", initialRating: 4 },
   { name: "Unit-Testing(Jest)", initialRating: 3 },
-  { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
-  { name: "Git", initialRating: 4 },
+  { name: "RESTfulAPIs", initialRating: 4 },
+  { name: "Mysql", initialRating: 4 },
+  { name: "Bootstrap", initialRating: 4 },
+  { name: "MVC", initialRating: 5 },
+  { name: "Heroku", initialRating: 5 },
+  { name: "Git", initialRating: 5 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Insomnia", "MongoDB", "GoogleAPIs", "Heroku"]
