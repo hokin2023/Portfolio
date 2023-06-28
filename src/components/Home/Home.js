@@ -24,10 +24,9 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                
+Hi, I'm an experienced coding bootcamp graduate who has built serveral real-world projects. I'm proficient in using various technologies such as JavaScript, HTML, CSS, Node.js, Mysql, MongoDB, Express.js, and RESTful APIs.
+With my passion and dedication, I won't stop learning and improving.
               </p>
 
               <div className="heading-type">
