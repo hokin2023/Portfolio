@@ -1,11 +1,10 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
+import project4 from "./Assets/Projects/project4.png";
 import project3 from "./Assets/Projects/mvc-tech-blog.png";
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
-import HSP from "./Assets/Projects/hsp.png";
+
+import project5 from "./Assets/Projects/project5.png";
+
 import project1 from "./Assets/Projects/project1.png";
-import TECHSPEC from "./Assets/Projects/techspec.png";
+import project6 from "./Assets/Projects/project6.png";
 import project2 from "./Assets/Projects/project2.png";
 
 
@@ -32,47 +31,27 @@ export const PROJECTS = [
     url: "https://mvc-tech-blog.herokuapp.com/",
   },
   {
-    image: AUTOMATION,
+    image: project4,
     name: "Employee Tracker",
     technologyUsed: "NodeJs and Mysql",
     description: "An app that allow users to manage employees through company's database.",
     url: "https://github.com/hokin2023/12th-Cinnamoroll",
   },
   {
-    image: GUAMEDIA,
-    name: "GuaMedia",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
-    url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
+    image: project5,
+    name: "Weather Forecast",
+    technologyUsed: "RESTfuls API and JavaScript",
+    description: "An app that allow users to get weather information based on city.",
+    url: "https://hokin2023.github.io/Sixth-sense/",
   },
   {
-    image: TECHSPEC,
-    name: "TechSpec",
+    image: project6,
+    name: "project6",
     technologyUsed: "ReactJs, Typescript, Redux",
-    description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
-    url: "",
+    description: "If you ever feel stuck at creating password, this app will help you get one strong password based on high-security criteria. ",
+    url: "https://hokin2023.github.io/home-work-3/",
   },
-  {
-    image: HSP,
-    name: "HSP (Health Solution Plus)",
-    technologyUsed: "ReactJs, Javascript, Redux",
-    description: "This is a Healthcare sector project which would be developed as replica of a desktop application. My responsibilities in this project are to develop UI, perform searching of medical codes and categories, addition/updation of codes and categories.",
-    url: "",
-  },
-  {
-    image: DROPSHIP,
-    name: "DropShip Shopify App",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
-    description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
-    url: "",
-  },
-  {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
-  },
+  
 ];
 
 export const SKILLS = [
